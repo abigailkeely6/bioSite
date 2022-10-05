@@ -1,24 +1,33 @@
 html {
     font-family: 'Oswald', Verdana, Arial, sans-serif;
-    background-color: #00EBE6;
+    background-color: lightblue;
 }
 
 header {
-    color: #206B6A;
     text-align: center;
-    border: 30px black;
+    border: 30px;
+    background-color: #00B8B5;
+}
+
+h1 {
+    color: black;
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 25px;
 }
 
 figcaption {
-    color: #00B8B5;
+    color: teal;
 }
 
 div {
-    color: #00B8B5;
+    color: teal;
 }
 
 p {
-    color: #00B8B5;
+    color: teal;
 }
 
 #landing, #about, #hobbies {
@@ -31,25 +40,24 @@ p {
     float: left;
     padding: 20px;
     grid-column-start: 1;
-    grid-column-end: 2;
+    grid-column-end: 3;
 }
 
 #pages {
-    box-shadow: 5px, 5px, 5px, 5px #888888;
     border: 2px black;
-    width: 50%;
+    width: 70%;
     padding: 20px;
     grid-column-start: 3;
     grid-column-end: 4;
 }
 
-#pages a:hover {
+a:hover {
     color:black;
 }
 
-#pages a:link {
+a:link {
     text-decoration: underline;
-    color: #00B8B5;
+    color:gray;
 }
 
 #images {
